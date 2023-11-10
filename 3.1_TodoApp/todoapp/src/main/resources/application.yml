@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://DESKTOP-3ECUTBH\SQLEXPRESS:1433;encrtpy=true;trustServerCertificate=true;database=todo_app;spring.jpa.database-platform=org.hibernate.dialect.MySQL57Dialect;spring.jpa.generate-ddl=true;spring.jpa.show-sql=true
+    username: sa
+    password: 12345
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServerDialect
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8081
+
+  
+  
+  
